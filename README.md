@@ -24,7 +24,19 @@ If success, prompt should start with: `(venv)`
 
 ## 5. Run Django
 
-```
-cd project
-./manage.py runserver
-```
+`cd project`
+
+OS X / Linux:
+`./manage.py runserver`
+
+Windows:
+`python manage.py runserver`
+
+
+# Practice
+
+## 1. Read through all files in the project and guess what they do
+
+## 2. Change a, b, c written to something else
+
+
