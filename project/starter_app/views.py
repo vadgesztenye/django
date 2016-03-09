@@ -1,9 +1,10 @@
 from django.shortcuts import render
-from .models import Message
+# from .models import Message
 
 
 def home(request):
-    messages = Message.objects.order_by('order')
+    # messages = Message.objects.order_by('order')
+    messages = ['a', 'b', 'c']
     context_dict = {
         'messages': messages
     }
