@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 def home(request):
     # messages = Message.objects.order_by('order')
-    messages = ['a', 'b', 'c']
+    messages = ['abc', 'bca', 'cab']
     context_dict = {
         'messages': messages
     }
