@@ -4,8 +4,10 @@
 
     <h1>Hi Django!</h1>
     <ul>
-        {% for message in messages %}
-            <li><p>{{ message }}</p></li>
+        {% for item in blogs %}
+        	{% for element in item %}
+        		<li><p>{{ element }}</p></li> 
+        	{% endfor %}           
         {% endfor %}
-
+    </ul>
 {% endblock %}
