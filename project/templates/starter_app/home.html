@@ -5,9 +5,10 @@
     <h1>Hi Django!</h1>
     <ul>
         {% for item in blogs %}
-        	{% for element in item %}
+        	<!--{% for element in item %}
         		<li><p>{{ element }}</p></li> 
-        	{% endfor %}           
+        	{% endfor %}-->     
+        	<li><p>{{ item }}</p></li>  
         {% endfor %}
     </ul>
 {% endblock %}
