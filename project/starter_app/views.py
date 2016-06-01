@@ -23,8 +23,8 @@ def get_post_by_slug(slug):
 blog_data = load_data()
 
 def home(request):
-	list_of_blogs = {'blogs': blog_data}
-	return render(request,'starter_app/home.html', list_of_blogs)
+	context_dict = {'blogs': blog_data}
+	return render(request,'starter_app/home.html', context_dict)
 
 
 def post(request,slug):

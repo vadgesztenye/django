@@ -5,7 +5,14 @@
     <h1>Hi Django!</h1>
     <ul>
         {% for item in blogs %}   
-        	<li><p>{{ item }}</p></li>  
+        	<li>
+        			<p>{{ item.title }}</p>
+        			<p>{{ item.date }}</p> 
+        			<p>{{ item.slug }}</p>
+        			<p>{{ item.content }}</p> 
+ 
+
+        	</li>
         {% endfor %}
     </ul>
 {% endblock %}
