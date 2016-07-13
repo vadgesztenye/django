@@ -1,19 +1,19 @@
 [
 {
 	"title":"my first post",
-	"date":"2016/05/04",
+	"date":"2016-05-04T18:17:50.97",
 	"slug":"first_post",
 	"content": "It was the best of times, it was the worst of times,"
 },
 {
 	"title":"my second post",
-	"date":"2016/05/05",
+	"date":"2016-05-05T18:37:50.97",
 	"slug":"hello_world",
 	"content": "it was the age of wisdom, it was the age of foolishness,"
 },
 {
 	"title":"my third post",
-	"date":"2016/05/04",
+	"date":"2016-05-06T18:31:50.97",
 	"slug":"first_post",
 	"content": " it was the epoch of belief, it was the epoch of incredulity,"
 }

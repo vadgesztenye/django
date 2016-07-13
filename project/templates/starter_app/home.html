@@ -7,7 +7,7 @@
         {% for item in blogs %}   
         	<li>
         			<p>{{ item.title }}</p>
-        			<p>{{ item.date }}</p> 
+        			<p>{{ item.date|date:"j M Y, l"}}</p> 
         			<p>{{ item.slug }}</p>
         			<p>{{ item.content }}</p> 
  
